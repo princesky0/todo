@@ -1,0 +1,53 @@
+body{
+    padding: 0px;
+    margin: 0,0;
+    
+  }
+  .input,
+  .output{
+    box-sizing: content-box;
+    border: solid 2px black;
+    border-radius: 10px;
+    width: 15em;
+    padding: 15px;
+  }
+  .block{
+    display: flex;
+    padding: 10px;
+    spacing: 10px;
+    justify-content: space-around;
+  }
+  label:after {
+      content: '\A';
+      white-space: pre;
+  }
+  .entertask{
+    display:flex;
+    padding: 20px;
+    justify-content: center;
+  }
+  .error{
+    display:flex;
+    justify-content: center;
+    color: red;
+  }
+  .output{
+    text-decoration:line-through;
+  }
+  .output span{
+    text-decoration:none !important;
+  }
+  
+  .tableblock{
+    border: solid 2px;
+    padding: 10px;
+    border-radius: 10px;
+    
+  }
+  .button{
+    display: block;
+  }
+  button{
+    width: 6em;
+    
+  }

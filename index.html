@@ -1,0 +1,40 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="/style.css"/>
+  </head>
+  <body>
+    <script src="/script.js"></script>
+    <h2><center>TODO Task Menu</center></h2>
+    <div class="block">
+    <div class="tableblock">
+      <b>Task Uncompleted:</b><hr>
+    <div class="input" id="input">
+      <input id=1 type='checkbox' value="first">
+      <label for=1>first</label>
+      <input id=2 type='checkbox' value="second">
+      <label for=2>second</label>
+      <input id=3 type='checkbox' value="third">
+      <label for=3>third</label>
+      <input id=4 type='checkbox' value="forth">
+      <label for=4>forth</label>
+      </div></div>
+    <div class="button">
+    <button onclick=right()>Done --></button><br><br>
+      <button onclick=left()><--Undone</button>
+        <br><br>
+        <button onclick=deletethis()>Delete</button>
+    </div><div class="tableblock">
+      <b>Task Completed:</b><hr>
+    <div class="output" id="output">
+      
+      </div>
+    </div>
+    </div>
+      <div class="entertask">
+      <label for="task">Add Task: </label>
+        <input type="text" id="task" value="">
+        <button onclick=addthis()>ADD</button>
+      </div>
+      <div class="error" id="error"></div>
+  </body>
+</html>
